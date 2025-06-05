@@ -1,0 +1,26 @@
+﻿Device,Name,Value,Writable,NodeId,DataType,Unit,Description,EngineeringRange,Simulated
+Boiler1,Temperature,70,TRUE,ns=2;s=Boiler1.Temperature,Double,°C,Boiler1 Temperature,0..150,sin
+Boiler1,Pressure,1.5,FALSE,ns=2;s=Boiler1.Pressure,Double,bar,Boiler1 Pressure,0..10,
+Boiler1,FlowRate,25.4,TRUE,ns=2;s=Boiler1.FlowRate,Double,L/min,Boiler1 FlowRate,0..100,sin
+Boiler1,Efficiency,88.6,FALSE,ns=2;s=Boiler1.Efficiency,Double,%,Boiler1 Efficiency,0..100,
+Boiler1,Speed,99,TRUE,ns=2;s=Boiler1.Speed,Double,RPM,Boiler1 Speed,0..5000,cos
+Pump1,Speed,1000,TRUE,ns=2;s=Pump1.Speed,Int32,RPM,Pump1 Speed,0..5000,cos
+Pump1,Voltage,220,FALSE,ns=2;s=Pump1.Voltage,Double,V,Pump1 Voltage,0..500,
+Pump1,Current,15.2,TRUE,ns=2;s=Pump1.Current,Double,A,Pump1 Current,0..100,cos
+Pump1,Temperature,55,FALSE,ns=2;s=Pump1.Temperature,Double,°C,Pump1 Temperature,0..150,
+Valve1,Position,45A,TRUE,ns=2;s=Valve1.Position,String,,Valve1 Position,,
+Valve1,Status,1,FALSE,ns=2;s=Valve1.Status,Int32,,Valve1 Status,,
+Valve1,FlowRate,12.3,TRUE,ns=2;s=Valve1.FlowRate,Double,L/min,Valve1 FlowRate,0..100,sin
+Tank1,Level,75.3,TRUE,ns=2;s=Tank1.Level,Double,%,Tank1 Level,0..100,sin
+Tank1,Temperature,22.1,FALSE,ns=2;s=Tank1.Temperature,Double,°C,Tank1 Temperature,0..150,
+Tank1,Pressure,0.9,FALSE,ns=2;s=Tank1.Pressure,Double,bar,Tank1 Pressure,0..10,
+Tank1,PH,7.1,TRUE,ns=2;s=Tank1.PH,Double,pH,Tank1 PH,0..14,
+Compressor1,Pressure,5.5,TRUE,ns=2;s=Compressor1.Pressure,Double,bar,Compressor1 Pressure,0..10,sin
+Compressor1,Temperature,60.2,TRUE,ns=2;s=Compressor1.Temperature,Double,°C,Compressor1 Temperature,0..150,sin
+Compressor1,Speed,1400,FALSE,ns=2;s=Compressor1.Speed,Int32,RPM,Compressor1 Speed,0..5000,
+Generator1,Voltage,400,FALSE,ns=2;s=Generator1.Voltage,Int32,V,Generator1 Voltage,0..500,
+Generator1,Current,230,TRUE,ns=2;s=Generator1.Current,Int32,A,Generator1 Current,0..100,cos
+Generator1,Frequency,50,FALSE,ns=2;s=Generator1.Frequency,Int32,Hz,Generator1 Frequency,0..100,
+Heater1,Temperature,85,TRUE,ns=2;s=Heater1.Temperature,Double,°C,Heater1 Temperature,0..150,sin
+Heater1,Power,1500,FALSE,ns=2;s=Heater1.Power,Int32,W,Heater1 Power,0..10000,
+Heater1,Status,1,TRUE,ns=2;s=Heater1.Status,Int32,,Heater1 Status,,
